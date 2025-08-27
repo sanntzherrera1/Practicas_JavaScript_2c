@@ -7,13 +7,13 @@ false. Utilizar el operador ternario.
 
 
 function esMayorEdad (edad) {
-    return edad > 18 ? (true): (false)
+    return edad > 18 //? (true): (false) redundante
 }
 
 console.log(esMayorEdad(22))
 
 function esMayor (num) {
-    return num > 100 ? (true): (false)
+    return num > 100 //? (true): (false) redundante
 }
 
 console.log(esMayor(123))
