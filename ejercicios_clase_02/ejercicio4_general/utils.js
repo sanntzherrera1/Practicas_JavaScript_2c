@@ -15,17 +15,25 @@ function validarTipo(variable)  {
 }
 validarTipo("hola")
 
- function funcionNoParametros(){
-
+ function imprimeUnSaludo(){
+    console.log("hola")
  }
+ imprimeUnSaludo();
 
- function funcionNoParametros(a,b){
-    
+ function imprimirSuma(a,b){
+    console.log(a+b)
  }
+imprimirSuma(1,1);
 
- function funcionNoParametros(){
+ function imprimirAlgo(){
      return "algo"
  }
+console.log(imprimirAlgo())
+
+function saludar(nombre){
+    return `Hola ${nombre}`
+}
+console.log(saludar("Fulanito"))
 
 const Alumno = {
     nota: 9,
